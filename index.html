@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A responsive landing page for Fieldwork Studio, a fictional web template shop.">
+  <title>Fieldwork Studio — Web templates for small teams</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="wrap header">
+    <a class="brand" href="#"><span aria-hidden="true">✳</span> fieldwork<span class="studio">studio</span></a>
+    <button class="menu" type="button" aria-controls="navigation" aria-expanded="false" hidden>Menu</button>
+    <nav id="navigation" aria-label="Main navigation">
+      <a href="#features">Features</a><a href="#preview">Preview</a><a href="#steps">How it works</a><a href="#pricing">Pricing</a><a class="button small" href="#contact">Get started</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="wrap hero split">
+      <div>
+        <p class="label">Website templates for small teams</p>
+        <h1>Start with a site that’s <em>already halfway there.</em></h1>
+        <p class="lead">Build your next landing page with flexible sections, thoughtful defaults, and layouts that look good from phone to desktop.</p>
+        <form class="signup" action="#contact">
+          <label class="visually-hidden" for="hero-email">Email address</label>
+          <input id="hero-email" type="email" autocomplete="email" placeholder="Your email address" required>
+          <button class="button" type="submit">Get started</button>
+        </form>
+        <p class="formats">Built for <b>HTML</b> <b>CSS</b> <b>JavaScript</b></p>
+      </div>
+      <div class="art" aria-hidden="true">
+        <div class="art-caption"><span>FIELDWORK STUDIO</span><span>FIG. 01 / SITE KIT</span></div>
+        <div class="window"><div class="window-bar"><i></i><i></i><i></i></div><div class="canvas"><div class="canvas-header"><b>northline.</b><span>Work &nbsp; Studio</span></div><div class="canvas-hero"><small>INDEPENDENT DESIGN STUDIO</small><strong>Make room<br>for good ideas.</strong><div class="sun"></div><div class="hill"></div></div><div class="tiles"><span></span><span></span><span></span></div></div></div>
+      </div>
+    </section>
+    <section id="features" class="band">
+      <div class="wrap section">
+        <div class="section-head"><p class="label">Features</p><h2>Everything you need to get online.</h2><p>Spend your time on the content. The layout is ready to make your own.</p></div>
+        <div class="feature-grid">
+          <article><span aria-hidden="true">▦</span><div><h3>Reusable sections</h3><p>Mix heroes, feature grids, and pricing blocks to build the page you need.</p></div></article>
+          <article><span aria-hidden="true">◫</span><div><h3>Responsive layouts</h3><p>Layouts adapt naturally as the screen gets narrower.</p></div></article>
+          <article><span aria-hidden="true">◇</span><div><h3>Easy to customize</h3><p>Change colors, spacing, and typography from one stylesheet.</p></div></article>
+          <article><span aria-hidden="true">⌘</span><div><h3>Keyboard-friendly controls</h3><p>Visible focus and clear labels make it easier to move through the page.</p></div></article>
+          <article><span aria-hidden="true">↯</span><div><h3>Lightweight pages</h3><p>Open the source in a browser with no build process to set up.</p></div></article>
+          <article><span aria-hidden="true">◎</span><div><h3>Readable source</h3><p>Find the section you want to edit in plain HTML, CSS, and JavaScript.</p></div></article>
+        </div>
+      </div>
+    </section>
+    <section id="preview" class="wrap section split">
+      <div>
+        <p class="label">Template preview</p><h2>A layout you can make your own.</h2>
+        <p class="lead">This sample studio site pairs a bold headline with a project grid. Swap in your own headline and work, then add the sections your visitors need.</p>
+        <a class="button" href="#steps">See how it works</a>
+      </div>
+      <figure class="sample"><img src="assets/layout.svg" width="640" height="420" alt="Sample studio layout with a large headline, two project cards, and a sidebar navigation."></figure>
+    </section>
+    <section id="steps" class="wrap section split steps">
+      <div class="check-card" aria-hidden="true"><p class="label">LAUNCH CHECKLIST</p><strong>Site setup</strong><div>✓ &nbsp; Choose a template</div><div>✓ &nbsp; Add your content</div><div>○ &nbsp; Publish your page</div></div>
+      <div><p class="label">How it works</p><h2>From template to launch.</h2><ol>
+        <li><h3>Choose</h3><p>Start with the layout that best fits your project.</p></li>
+        <li><h3>Customize</h3><p>Replace the sample copy and imagery, then set your brand colors.</p></li>
+        <li><h3>Publish</h3><p>Check the page on desktop and mobile before deploying it.</p></li>
+      </ol></div>
+    </section>
+    <section id="values" class="band">
+      <div class="wrap section split"><div><p class="label">What we value</p><h2>Good defaults. Room to grow.</h2><p class="lead">Every layout starts with readable type and a clear structure. Keep what works and change what your project needs.</p><a class="button" href="#pricing">Compare plans</a></div>
+      <div class="value-list"><article><h3>Affordability</h3><p>Choose the size of the template collection that fits your project.</p></article><article><h3>Maintainability</h3><p>Familiar patterns make future edits easier to find and review.</p></article></div></div>
+    </section>
+    <section id="pricing" class="wrap section">
+      <div class="section-head"><p class="label">Pricing</p><h2>Pick a plan for your project.</h2><p>Sample plans for individuals, teams, and studios.</p></div>
+      <div class="plans">
+        <article class="plan"><h3>Personal</h3><p class="price">$18 <span>/ month</span></p><ul><li>30 templates</li><li>7 landing pages</li><li>Email support</li></ul><button class="button outline" type="button" data-plan="Personal">Choose Personal</button></article>
+        <article class="plan featured"><h3>Business</h3><p class="price">$38 <span>/ month</span></p><ul><li>60 templates</li><li>15 landing pages</li><li>Priority support</li></ul><button class="button light" type="button" data-plan="Business">Choose Business</button></article>
+        <article class="plan"><h3>Studio</h3><p class="price">$58 <span>/ month</span></p><ul><li>90 templates</li><li>27 landing pages</li><li>Dedicated support</li></ul><button class="button outline" type="button" data-plan="Studio">Choose Studio</button></article>
+      </div>
+    </section>
+    <section class="wrap section quote" aria-labelledby="quote-heading">
+      <p class="label">Testimonials · Sample content</p><h2 id="quote-heading">What a launch can feel like.</h2>
+      <blockquote id="testimonial"><p id="quote-text">“We had a page to review on the first day, which gave us more time to get the copy right.”</p><footer id="quote-credit">Jamie · Fictional studio owner</footer></blockquote>
+      <div class="quote-controls"><button type="button" id="previous" aria-label="Previous testimonial">‹</button><button type="button" id="next" aria-label="Next testimonial">›</button></div>
+      <p id="quote-status" class="visually-hidden" role="status"></p>
+    </section>
+    <section id="contact" class="wrap contact" aria-labelledby="contact-heading">
+      <div><p class="label">Get started</p><h2 id="contact-heading">Ready to start building?</h2><p id="plan-status" role="status">Try the demo signup. This page doesn’t send or store your email.</p></div>
+      <form class="signup" id="contact-form">
+        <label class="visually-hidden" for="contact-email">Email address</label><input id="contact-email" type="email" autocomplete="email" placeholder="Your email address" required><button class="button light" type="submit">Try signup</button>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner">
+    <a class="brand" href="#"><span aria-hidden="true">✳</span> fieldwork<span class="studio">studio</span></a>
+    <nav aria-label="Footer navigation"><a href="#features">Features</a><a href="#steps">Setup</a><a href="#values">Values</a><a href="#pricing">Pricing</a></nav>
+    <small>Frontend Simplified · Module 2 project</small>
+  </div></footer>
+</body>
+</html>

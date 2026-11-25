@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420">
+  <rect width="640" height="420" fill="#deded0"/>
+  <rect x="30" y="32" width="580" height="356" rx="10" fill="#fbfaf1" stroke="#b5b7a6"/>
+  <path d="M30 69h580M155 69v319" stroke="#b5b7a6"/>
+  <circle cx="53" cy="51" r="4" fill="#a85532"/><circle cx="67" cy="51" r="4" fill="#9f9c7b"/><circle cx="81" cy="51" r="4" fill="#61775a"/>
+  <g font-family="system-ui,sans-serif" fill="#264139"><text x="49" y="102" font-size="16" font-weight="700">northline.</text><text x="49" y="142" font-size="11">Selected work</text><text x="49" y="164" font-size="11">Studio</text><text x="49" y="186" font-size="11">Contact</text><text x="184" y="111" font-size="10" letter-spacing="2">DESIGN AND DIRECTION</text></g>
+  <text x="183" y="168" font-family="Georgia,serif" font-size="48" fill="#264139">Selected work.</text>
+  <rect x="184" y="202" width="194" height="145" fill="#31594a"/>
+  <circle cx="281" cy="275" r="48" fill="#efb577"/>
+  <path d="M184 347v-40q64-80 133-15 24 19 61-11v66z" fill="#1c392f"/>
+  <rect x="391" y="202" width="194" height="145" fill="#e3a677"/>
+  <path d="M423 347v-56a65 65 0 0 1 130 0v56z" fill="#a24c30"/>
+  <path d="M454 347v-56a34 34 0 0 1 68 0v56z" fill="#f4ce9b"/>
+</svg>
