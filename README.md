@@ -1,18 +1,7 @@
-# Fieldwork Studio
+# FES Module 2 Final Project
 
-Frontend Simplified Module 2 final project. This static landing page follows the section sequence of the course reference and uses original copy and visuals. The FAQ accordion is outside the lesson scope. Plans, testimonials, and signup are demonstrations.
+This revision adapts the [course-provided Treact reference](https://module-2-fp-example-website.vercel.app/) for the mentor's one-to-one assignment. The course reference supplies the markup, styling, illustrations, and demo content. The adaptation uses repository-relative asset paths so it can run under a GitHub Pages project URL. The FAQ accordion is outside the assignment scope.
 
-## Run locally
+Open index.html in a browser to preview. No build step is required. The demo reproduces the reference landing page and its mobile navigation. It has no signup, checkout, or account backend.
 
-Open index.html in a browser. No dependencies or build step are needed.
-
-## Files
-
-- index.html contains the page structure.
-- style.css contains the desktop layout and mobile breakpoints.
-- script.js handles the mobile menu, demo signup, plan selection, and testimonials.
-- assets/ contains the original layout illustration.
-
-## Submit
-
-Place these files at the root of your GitHub repository. Deploy that repository as a static site with the repository root as the output directory. Open the deployed URL in a signed-out window to verify it works for your mentor, then paste the live URL into the lesson’s project submission form.
+Upload index.html, style.css, script.js, README.md, and assets/ to the root of the existing repository. GitHub Pages publishes updates from main. Verify the live page before resubmitting through the FES lesson.
